@@ -1,0 +1,71 @@
+main{
+    min-height: 500px;
+}
+
+#section-banner{
+    min-height: 400px;
+}
+
+#section-banner img{
+    height: 500px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+span{
+    padding: 10px;
+    color: black;
+}
+
+.example-card {
+    max-width: 400px;
+  }
+  
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: auto;
+}
+
+mat-toolbar{
+    color: rgb(199, 195, 195);
+}
+
+mat-toolbar button{
+    color: black;
+}
+
+mat-grid-list{
+    margin: 10px;
+}
+
+mat-grid-tile{
+    border-radius: 30px;
+}
+
+mat-card{
+    background-color: rgb(238, 237, 237);
+}
+
+mat-card-header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+mat-card-actions{
+    display: flex;
+    justify-content: center;
+}
+
+mat-card-actions p{
+    color: red;
+    font-size: 30px;
+}
+
+mat-card img{
+    height: 300px;
+    width: 300px;
+}
